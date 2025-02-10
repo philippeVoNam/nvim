@@ -13,7 +13,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " File Explorer
     Plug 'scrooloose/NERDTree'
     " Auto pairs for '(' '[' '{'
-    Plug 'jiangmiao/auto-pairs'
+    " Plug 'jiangmiao/auto-pairs'
     " Stable version of coc
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Airline
@@ -72,5 +72,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'nvim-tree/nvim-tree.lua'
     " tagbar
     Plug 'preservim/tagbar'
+    " lsp
+    Plug 'neovim/nvim-lspconfig'
 
 call plug#end()
